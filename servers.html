@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servers - BREZEL MINECRAFT</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <meta name="description" content="Discover Our Premium Minecraft Servers"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Akrobat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="/" class="logo">
+                    <img src="https://r2.fivemanage.com/2P9FjNbfkvdwqJtyhr4v5/sitelogo.webp" alt="Brezel Logo">
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="nav-link">OVERVIEW</a></li>
+                    <li><a href="servers.html" class="nav-link active">SERVERS</a></li>
+                    <li><a href="community.html" class="nav-link">COMMUNITY</a></li>
+                    <li><a href="wiki.html" class="nav-link">WIKI</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="server-status-mini">
+                    <div class="footer-social">
+                        <a href="#" class="discord"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <!-- <div class="status-indicator"></div>
+                    <span class="player-count">128/128</span> -->
+                    <div class="dropdown-menu">
+                        <div class="server-actions">
+                            <button class="server-action-btn">
+                                <i class="fas fa-signal"></i>
+                                <span>TPS: 20.0</span>
+                            </button>
+                            <button class="server-action-btn">
+                                <i class="fas fa-bolt"></i>
+                                <span>Ping: 0.1ms</span>
+                            </button>
+                            <button class="server-action-btn">
+                                <i class="fas fa-clock"></i>
+                                <span>Uptime: 99.9%</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-overlay" id="navOverlay"></div>
+    </header>
+
+    <div class="servers-page">
+        <div class="page-header">
+            <div class="header-content">
+                <h1>OUR REALMS</h1>
+                <p>Discover meticulously optimized servers crafted for the ultimate gaming experience</p>
+                <div class="server-stats-bar">
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <span>99.9% Uptime</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>0.1ms Latency</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <span>1000+ Players</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="servers-container">
+                <div class="search-container">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search servers..." id="serverSearch">
+                    </div>
+                </div>
+
+                <div class="servers-grid">
+                    <!-- Roleplay Server -->
+                    <div class="server-card" data-server-name="roleplay">
+                        <div class="server-header">
+                            <div class="header-main">
+                                <h2>ROLEPLAY REALM</h2>
+                                <div class="server-badges">
+                                    <span class="server-type">
+                                        <i class="fas fa-theater-masks"></i>
+                                        Roleplay
+                                    </span>
+                                    <span class="player-count">
+                                        <i class="fas fa-users"></i>
+                                        458 Active
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="status-badge">Online</span>
+                        </div>
+                        <div class="server-info">
+                            <div class="server-stats">
+                                <div class="stat-group">
+                                    <div class="stat-item">
+                                        <i class="fas fa-users"></i>
+                                        <span>458/500</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>v1.19.2</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-signal"></i>
+                                        <span>20 TPS</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="server-specs">
+                                <div class="spec-item">
+                                    <i class="fas fa-microchip"></i>
+                                    <span>Ryzen 9 5950X</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-memory"></i>
+                                    <span>64GB DDR4</span>
+                                </div>
+                            </div>
+                            <div class="server-features">
+                                <span>Custom Economy</span>
+                                <span>City System</span>
+                                <span>Professions</span>
+                            </div>
+                        </div>
+                        <div class="server-actions">
+                            <button class="play-btn">
+                                <div class="button-content">
+                                    <i class="fas fa-play"></i>
+                                    <span>PLAY NOW</span>
+                                </div>
+                            </button>
+                            <button class="copy-ip" data-ip="play.brezel.com">
+                                <div class="button-content">
+                                    <i class="fas fa-copy"></i>
+                                    <span>COPY IP</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Skyblock Server -->
+                    <div class="server-card" data-server-name="skyblock">
+                        <div class="server-header">
+                            <div class="header-main">
+                                <h2>SKYBLOCK REALM</h2>
+                                <div class="server-badges">
+                                    <span class="server-type">
+                                        <i class="fas fa-cube"></i>
+                                        Skyblock
+                                    </span>
+                                    <span class="player-count">
+                                        <i class="fas fa-users"></i>
+                                        285 Active
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="status-badge">Online</span>
+                        </div>
+                        <div class="server-info">
+                            <div class="server-stats">
+                                <div class="stat-group">
+                                    <div class="stat-item">
+                                        <i class="fas fa-users"></i>
+                                        <span>285/300</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>v1.19.2</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-signal"></i>
+                                        <span>20 TPS</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="server-specs">
+                                <div class="spec-item">
+                                    <i class="fas fa-microchip"></i>
+                                    <span>i9-12900K</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-memory"></i>
+                                    <span>32GB DDR5</span>
+                                </div>
+                            </div>
+                            <div class="server-features">
+                                <span>Island Leveling</span>
+                                <span>Markets</span>
+                                <span>Quests</span>
+                            </div>
+                        </div>
+                        <div class="server-actions">
+                            <button class="play-btn">
+                                <div class="button-content">
+                                    <i class="fas fa-play"></i>
+                                    <span>PLAY NOW</span>
+                                </div>
+                            </button>
+                            <button class="copy-ip" data-ip="play.brezel.com">
+                                <div class="button-content">
+                                    <i class="fas fa-copy"></i>
+                                    <span>COPY IP</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Survival Server -->
+                    <div class="server-card" data-server-name="survival">
+                        <div class="server-header">
+                            <div class="header-main">
+                                <h2>SURVIVAL REALM</h2>
+                                <div class="server-badges">
+                                    <span class="server-type">
+                                        <i class="fas fa-sword"></i>
+                                        PvP
+                                    </span>
+                                    <span class="player-count">
+                                        <i class="fas fa-users"></i>
+                                        245 Active
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="status-badge">Online</span>
+                        </div>
+                        <div class="server-info">
+                            <div class="server-stats">
+                                <div class="stat-group">
+                                    <div class="stat-item">
+                                        <i class="fas fa-users"></i>
+                                        <span>245/250</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>v1.19.2</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-signal"></i>
+                                        <span>20 TPS</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="server-specs">
+                                <div class="spec-item">
+                                    <i class="fas fa-microchip"></i>
+                                    <span>Ryzen 7 5800X</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-memory"></i>
+                                    <span>32GB DDR4</span>
+                                </div>
+                            </div>
+                            <div class="server-features">
+                                <span>PvP Combat</span>
+                                <span>Economy</span>
+                                <span>Clans</span>
+                            </div>
+                        </div>
+                        <div class="server-actions">
+                            <button class="play-btn">
+                                <div class="button-content">
+                                    <i class="fas fa-play"></i>
+                                    <span>PLAY NOW</span>
+                                </div>
+                            </button>
+                            <button class="copy-ip" data-ip="play.brezel.com">
+                                <div class="button-content">
+                                    <i class="fas fa-copy"></i>
+                                    <span>COPY IP</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="img/logo.png" alt="Brezel Logo" class="footer-logo">
+                <p>© 2024 Eyes Store Services</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="discord"><i class="fab fa-discord"></i></a>
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('serverSearch');
+            const serverCards = document.querySelectorAll('.server-card');
+            let searchTimeout;
+
+            function updateSearch() {
+                const searchTerm = searchInput.value.toLowerCase().trim();
+                
+                serverCards.forEach(card => {
+                    const serverName = card.querySelector('h2').textContent.toLowerCase();
+                    const features = Array.from(card.querySelectorAll('.server-features span'))
+                        .map(span => span.textContent.toLowerCase());
+                    const specs = Array.from(card.querySelectorAll('.spec-item span'))
+                        .map(span => span.textContent.toLowerCase());
+                    
+                    const matchesSearch = serverName.includes(searchTerm) || 
+                        features.some(feature => feature.includes(searchTerm)) ||
+                        specs.some(spec => spec.includes(searchTerm));
+
+                    if (matchesSearch) {
+                        card.style.display = 'flex';
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    } else {
+                        card.style.display = 'none';
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                    }
+                });
+
+                // Grid düzenini güncelle
+                const visibleCards = document.querySelectorAll('.server-card[style*="display: flex"]');
+                const grid = document.querySelector('.servers-grid');
+                
+                if (visibleCards.length === 0) {
+                    // Sonuç bulunamadığında gösterilecek mesaj
+                    if (!document.querySelector('.no-results')) {
+                        const noResults = document.createElement('div');
+                        noResults.className = 'no-results';
+                        noResults.innerHTML = `
+                            <div class="no-results-content">
+                                <i class="fas fa-search"></i>
+                                <div>
+                                    <p>No results found</p>
+                                    <p class="suggestion">Try different keywords or clear filters.</p>
+                                </div>
+                            </div>
+                        `;
+                        grid.appendChild(noResults);
+                    }
+                }
+            }
+
+            searchInput.addEventListener('input', function() {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(updateSearch, 300);
+            });
+
+            // IP Kopyalama Fonksiyonu
+            document.querySelectorAll('.copy-ip').forEach(button => {
+                button.addEventListener('click', function() {
+                    const ip = this.getAttribute('data-ip');
+                    const textArea = document.createElement('textarea');
+                    textArea.value = ip;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    alert('Server IP copied: ' + ip);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
